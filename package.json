@@ -1,0 +1,95 @@
+{
+  "name": "vscode-ibmi-walkthroughs",
+	"displayName": "Code for IBM i Walkthroughs",
+	"description": "Adds walkthroughs for IBM i development in VS Code",
+	"version": "0.0.1",
+	"author": {
+		"name": "Halcyon Tech Ltd",
+		"url": "https://github.com/halcyon-tech"
+	},
+	"publisher": "halcyontechltd",
+	"repository": {
+		"url": "https://github.com/halcyon-tech/vscode-ibmi-walkthroughs"
+	},
+	
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+        "onStartupFinished"
+	],
+	"keywords": [
+		"ibmi"
+	],
+	"extensionDependencies": [
+		"halcyontechltd.code-for-ibmi"
+	],
+	
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [],
+		"walkthroughs": [	
+			{
+				"id": "code-ibmi-start",
+				"title": "Getting started with Code for IBM i",
+				"description": "Get started with what you need to write code with Code for IBM i.",
+				"steps": [
+					{
+						"id": "connect",
+						"title": "Connect to an IBM i",
+						"description": "Connect to an IBM i using the button in the Code for IBM i panel",
+						"media": {"markdown": "./content/code-ibmi-start/connect.md"},
+						"completionEvents": ["onContext:code-for-ibmi:connected"]
+					},
+					{
+						"id": "opensourcefile",
+						"title": "Open a source file",
+						"description": "Opening a source file is key. Source files contain a list of editable source members.",
+						"media": {"markdown": "./content/code-ibmi-start/opensourcecode.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.addSourceFile"]
+					},
+					{
+						"id": "librarylist",
+						"title": "Manage your library list",
+						"description": "Before you can compile any source code, you need to make sure the library list is correct. Try and add an item to your library list!",
+						"media": {"markdown": "./content/code-ibmi-start/librarylist.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.addToLibraryList"]
+					},
+					{
+						"id": "currentlibrary",
+						"title": "Set your current library",
+						"description": "It's also possible to set your current library. You should make sure that it is correct!",
+						"media": {"markdown": "./content/code-ibmi-start/librarylist.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.changeCurrentLibrary"]
+					},
+					{
+						"id": "compile",
+						"title": "Compiling code",
+						"description": "Now we can open code and know how to manage the library list, it's time to compile some code!",
+						"media": {"markdown": "./content/code-ibmi-start/compile.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.runAction"]
+					}
+				]
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.59.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+  }
+}
