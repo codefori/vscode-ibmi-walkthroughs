@@ -4,7 +4,7 @@
 
 Opening source members is easy. There is a view called the Member Browser and inside of this view is where a list of your source files can live.
 
-1. Start by adding a source file to the Member Browser. There is a button to do it on the view, or you can click here. When being asked for a path, it can take a path to the source file. For example:
+1. Start by adding a source file to the Member Browser. There is a button to do it on the view (the PLUS icon). When being asked for a path, it can take a path to the source file. For example:
 
    * `YOURLIB/QRPGLESRC`
    * `OTHERLIB/QDDSSRC`
