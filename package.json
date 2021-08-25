@@ -73,6 +73,40 @@
 						"completionEvents": ["onCommand:code-for-ibmi.runAction"]
 					}
 				]
+			},
+			{
+				"id": "code-ibmi-actions",
+				"title": "Code for IBM i Actions",
+				"description": "Actions are the way to manage your compile options. You can add, remove, and edit actions. You have to be connected first!",
+				"steps": [
+					{
+						"id": "viewactions",
+						"title": "View actions",
+						"description": "There is a special window you can use to view your actions.",
+						"media": {"markdown": "./content/code-ibmi-actions/viewactions.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.showActionsMaintenance"]
+					},
+					{
+						"id": "maintainaction",
+						"title": "Add an action",
+						"description": "You can add an action by clicking the button in the Code for IBM i panel.",
+						"media": {"markdown": "./content/code-ibmi-actions/maintainaction.md"}
+					},
+					{
+						"id": "runaction",
+						"title": "Run an action",
+						"description": "You can run an action by using a shortcut when you have code open.",
+						"media": {"markdown": "./content/code-ibmi-actions/runaction.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.runAction"]
+					},
+					{
+						"id": "runactionfrompanel",
+						"title": "Run an action from a panel",
+						"description": "You can run actions without opening any code.",
+						"media": {"markdown": "./content/code-ibmi-actions/runactionfrompanel.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.runActionFromView"]
+					}
+				]
 			}
 		]
 	},
