@@ -11,4 +11,6 @@ To run an Action, open up a source member (or IFS streamfile) and press:
 * Windows: Control + E
 * Mac: Command + E
 
-This will show a dropdown of the available Actions for the open file. Hitting enter on the chosen action will run it.
+This will show a dropdown of the available Actions for the open file. You can use the arrow keys to select which Action you'd like to run and hit enter to select it.
+
+![](compile.png)

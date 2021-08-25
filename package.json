@@ -55,14 +55,14 @@
 						"id": "librarylist",
 						"title": "Manage your library list",
 						"description": "Before you can compile any source code, you need to make sure the library list is correct. Try and add an item to your library list!",
-						"media": {"markdown": "./content/code-ibmi-start/librarylist.md"},
+						"media": {"markdown": "./content/code-ibmi-start/addlible.md"},
 						"completionEvents": ["onCommand:code-for-ibmi.addToLibraryList"]
 					},
 					{
 						"id": "currentlibrary",
 						"title": "Set your current library",
 						"description": "It's also possible to set your current library. You should make sure that it is correct!",
-						"media": {"markdown": "./content/code-ibmi-start/librarylist.md"},
+						"media": {"markdown": "./content/code-ibmi-start/currentlib.md"},
 						"completionEvents": ["onCommand:code-for-ibmi.changeCurrentLibrary"]
 					},
 					{
