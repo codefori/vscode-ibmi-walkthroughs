@@ -107,6 +107,32 @@
 						"completionEvents": ["onCommand:code-for-ibmi.runActionFromView"]
 					}
 				]
+			},
+			{
+				"id": "code-ibmi-ifsBrowser",
+				"title": "Code for IBM i IFS Browser",
+				"description": "The IFS Browser is a way to browse IFS files. You can use it to browse your IFS files and folders.",
+				"steps": [
+					{
+						"id": "usingifsbrowser",
+						"title": "Using the IFS Browser",
+						"description": "What you need to know when using the IFS Browser",
+						"media": {"markdown": "./content/code-ibmi-ifsBrowser/usingifsbrowser.md"}
+					},
+					{
+						"id": "changeworkingdir",
+						"title": "Change the working directory",
+						"description": "Change your home directory will allow you to work with more files",
+						"media": {"markdown": "./content/code-ibmi-ifsBrowser/changeworkingdir.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.changeHomeDirectory"]
+					},
+					{
+						"id": "ifstips",
+						"title": "IFS Browser Tips",
+						"description": "Just a couple of additional tips for using the IFS Browser",
+						"media": {"markdown": "./content/code-ibmi-ifsBrowser/ifstips.md"}
+					}
+				]
 			}
 		]
 	},
