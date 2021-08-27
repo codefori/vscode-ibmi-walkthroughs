@@ -133,6 +133,40 @@
 						"media": {"markdown": "./content/code-ibmi-ifsBrowser/ifstips.md"}
 					}
 				]
+			},
+			{
+				"id": "code-ibmi-tips",
+				"title": "Code for IBM i Tips",
+				"description": "Some tips for using Code for IBM i",
+				"steps": [
+					{
+						"id": "compare",
+						"title": "Source comparison",
+						"description": "You can compare two sources with simple right click options.",
+						"media": {"markdown": "./content/code-ibmi-tips/compare.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.compareWithSelected"]
+					},
+					{
+						"id": "runSql",
+						"title": "Run SQL inline",
+						"description": "You can run SQL queries directly from files with the SQL extension.",
+						"media": {"markdown": "./content/code-ibmi-tips/runSql.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.runEditorStatement"]
+					},
+					{
+						"id": "searchSourceMembers",
+						"title": "Search source members",
+						"description": "You can search the content of source members easily.",
+						"media": {"markdown": "./content/code-ibmi-tips/searchSourceMembers.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.searchSourceFile"]
+					},
+					{
+						"id": "rpgContentAssist",
+						"title": "RPGLE content-assist",
+						"description": "Did you know Code for IBM i provides content-assist for RPG?",
+						"media": {"markdown": "./content/code-ibmi-tips/rpgContentAssist.md"}
+					}
+				]
 			}
 		]
 	},
