@@ -2,11 +2,11 @@
 
 ## Opening and viewing source code
 
-Opening source members is easy. There is a view called the Member Browser and inside of this view is where a list of your source files can live.
+Opening source members is easy. There is a view called the Member Browser and inside of this view is a list of source files. You will want to add your source file(s) to the list.
 
 ![](./opensourcecode.png)
 
-1. Start by adding a source file to the Member Browser. There is a button to do it on the view (the folder with the plus icon). When being asked for a path, it can take a path to the source file. For example:
+1. Add a source file to the Member Browser using the add button (the folder with the plus icon). When  asked for the source file, enter it in library/srcpf format. Examples:
 
    * `YOURLIB/QRPGLESRC`
    * `OTHERLIB/QDDSSRC`
