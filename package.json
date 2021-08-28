@@ -142,21 +142,21 @@
 					{
 						"id": "compare",
 						"title": "Source comparison",
-						"description": "You can compare two sources with simple right click options.",
+						"description": "Compare two sources with simple right click options.",
 						"media": {"markdown": "./content/code-ibmi-tips/compare.md"},
 						"completionEvents": ["onCommand:code-for-ibmi.compareWithSelected"]
 					},
 					{
 						"id": "runSql",
 						"title": "Run SQL inline",
-						"description": "You can run SQL queries directly from files with the SQL extension.",
+						"description": "Run SQL queries directly from files with the SQL extension.",
 						"media": {"markdown": "./content/code-ibmi-tips/runSql.md"},
 						"completionEvents": ["onCommand:code-for-ibmi.runEditorStatement"]
 					},
 					{
 						"id": "searchSourceMembers",
 						"title": "Search source members",
-						"description": "You can search the content of source members easily.",
+						"description": "Search the content of source members easily.",
 						"media": {"markdown": "./content/code-ibmi-tips/searchSourceMembers.md"},
 						"completionEvents": ["onCommand:code-for-ibmi.searchSourceFile"]
 					},
@@ -165,6 +165,12 @@
 						"title": "RPGLE content-assist",
 						"description": "Did you know Code for IBM i provides content-assist for RPG?",
 						"media": {"markdown": "./content/code-ibmi-tips/rpgContentAssist.md"}
+					},
+					{
+						"id": "spoolFiles",
+						"title": "Spool Files",
+						"description": "It's possible to view spool files from compilications",
+						"media": {"markdown": "./content/code-ibmi-tips/spoolFiles.md"}
 					}
 				]
 			}
