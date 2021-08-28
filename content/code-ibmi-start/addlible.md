@@ -2,7 +2,7 @@
 
 ## Managing your library list
 
-In the User Library List view, you can add, remove, and move libraries up or down in the list. This list is observed whenever you run an Action.
+In the User Library List view, you can add, remove, and move libraries up or down in the list. This list is the library list that is used  whenever you run an Action.
 
 ---
 

@@ -1,7 +1,11 @@
 #
+n
+## Using the IFS Browser
 
-# Using the IFS Browser
+The IFS Browser  allows you to browse and edit streamfiles on the IFS on the connected IBM i. By default, it will show you the home directory of your user profile.
 
-The IFS Browser simply allows you to browser and edit streamfiles on the IFS on the connected IBM i. By default, the IBM i will show you the user profiles home directory.
+Listed in alphabetical order are all files and folder that you can browse and open.
 
-It will list all files and folders, in alphabetical order, that you can browse and open. Clicking on a folder will expand it and show what files and directories exist within it. Clicking on a streamfile will open it as an exitable item.
+* Clicking on a folder will expand it and show files and directories within it.
+
+* Clicking on a streamfile will open it as an editable item.

@@ -2,6 +2,6 @@
 
 ## Setting your current library
 
-There is also a button which lets you change your current library. The current library is observed whenever you run an Action.
+This button lets you change your current library. This library is used as the current library in the library list whenever you run an Action.
 
 ![](./currentlib.png)
