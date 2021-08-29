@@ -1,8 +1,8 @@
 #
 
-# Changing the work directory
+## Changing the working directory
 
-If you need to narrow down what directory you're working with, you can simply change your working directory within the IFS Browser. There is a button that allows you change your working directly:
+Change your working directory within the IFS Browser using this button.
 
 ![](./changingworkingdir.png)
 

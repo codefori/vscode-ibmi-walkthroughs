@@ -1,8 +1,8 @@
 #
 
-# Additonal IFS tips
+## Additonal IFS tips
 
-Of course, the IFS Browser can do a lot more than browser and edit streamfiles.
+Of course, the IFS Browser can do a lot more than browse and edit streamfiles.
 
 ![](./ifstips.png)
 
