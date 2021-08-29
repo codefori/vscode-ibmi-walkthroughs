@@ -1,11 +1,9 @@
 #
 
-## Running an Action
+## Running an Action without opening
 
-It is also possible to run an Action against a source member, IFS or object without opening it up.
+You can run an Action against a source member, an IFS streamfile, or an object in the Object Browser without opening it.
 
-If you right click on the source member, you will see `Run Action` as an option.
-
-Like before, it will show a list of available Actions that can be run on that source member in the box that appears.
+Right click on it and you will see `Run Action` as an option. Click it and you will see the list of Actions that can be run on the item.
 
 ![](runactionfrompanel.png)
