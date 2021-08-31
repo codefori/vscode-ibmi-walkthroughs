@@ -1,16 +1,16 @@
 #
 
-# RPGLE content assist
+## RPGLE content assist
 
-Code for IBM i does ship with content assist for RPGLE, but is disabled by default.
+Code for IBM i ships with content assist for RPGLE, but it is disabled by default.
 
-Content assist for RPGLE only works for total free-format source code (`**FREE`).
+Content assist for RPGLE works only for total free-format source code (`**FREE`).
 
 To enable the content assist, [open the VS Code Settings](command:workbench.action.openSettings) and search for 'rpgle content assist'.
 
 ![](./rpgContentAssist1.png)
 
-Next, to test it, create a new source member (or streamfile) with the following content:
+To test it, create a new source member (or streamfile) with the following content:
 
 ```rpgle
 **FREE
@@ -34,6 +34,6 @@ Dcl-Proc addWorld;
 End-Proc;
 ```
 
-You should use Control+Space to prompt the content-assist, and you should see the `addWorld` procedure on the list.
+Use Control+Space to invoke content assist, and you should see the `addWorld` procedure on the list.
 
 ![](./rpgContentAssist2.png)
