@@ -24,10 +24,6 @@
 	"keywords": [
 		"ibmi"
 	],
-	"extensionDependencies": [
-		"halcyontechltd.code-for-ibmi"
-	],
-	
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [],
