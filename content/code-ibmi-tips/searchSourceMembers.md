@@ -1,9 +1,21 @@
 #
 
-# Searching source members
+## Searching source members
 
-By right clicking on a source file from the Member Browser and selecting 'Search Source File', it will prompt a text box where you can enter in a search string.
-
-When the search is finished, it will load the results in a new tab. You can Control+Click on the link to open the member up.
+Right click on a source file in the Member Browser and select 'Search Source File'. It will prompt for a search string.
 
 ![](./searchSourceMembers.png)
+
+Search results load in a new tab.
+
+![](./searchSourceMembers2.png)
+
+Control+Click on the link to open the member.
+
+## Searching Streamfiles
+
+Right click on a directory in the IFS Browser and select 'Search Directory'.
+
+![](./searchSourceMembers3.png)
+
+Proceed as with a source file search.
