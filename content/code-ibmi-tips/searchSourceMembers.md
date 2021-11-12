@@ -2,7 +2,7 @@
 
 ## Searching source members
 
-Right click on a source file in the Member Browser and select 'Search Source File'. It will prompt for a search string.
+Right click on a source file in the Object Browser and select 'Search Source File'. It will prompt for a search string.
 
 ![](./searchSourceMembers.png)
 
