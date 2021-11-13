@@ -2,15 +2,26 @@
 
 ## Opening and viewing source code
 
-Opening source members is easy. The view called the Member Browser  is a list of source files. You will want to add your source file(s) to the list.
+In the Side Bar find the OBJECT BROWSER:
 
-![](./opensourcecode.png)
+![objectbrowser](opensource_01.png)
 
-1. Add a source file to the Member Browser using the add button (the folder with the plus icon). When  asked for the source file, enter it in **library/srcpf** format. Examples:
+Create a new filter for source file on which you want to work.
 
-   * `YOURLIB/QRPGLESRC`
-   * `OTHERLIB/QDDSSRC`
+1. Click on **+ Create new filter** or on the filter icon.
 
-2. When a source file has been added, click on it to load a list of the members in the source file.
+2. Complete the new filter dialog. Follow the explanatory text that explains the options, ensuring:
 
-3. Next, click on a source member to open it.
+   a. The Object is the source physical file you want to edit.
+
+   b. The Object type filter is set to *SRCPF.
+
+3. **Save settings**
+
+4. Click on the filter to expand the members in the source file.
+
+5. Click on a source member to open it.
+
+Results should look like this:
+
+![opened filter](opensource_02.png)

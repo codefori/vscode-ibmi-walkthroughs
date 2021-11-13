@@ -15,3 +15,7 @@ Right click on the source member or streamfile you want to compare and choose 'S
 Right click on the second source member or streamfile and choose 'Compare with selected'
 
 ![](./compare2.png)
+
+## See differences
+
+![](compare3.png)
