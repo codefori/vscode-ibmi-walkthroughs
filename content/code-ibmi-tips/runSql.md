@@ -22,3 +22,21 @@ If you just want to run or test a statement, try this:
 4. Press Control + R / Command + R to execute the selected statement.
 
 ![](./runSql.png)
+
+### SQL processors
+
+Newer version of SQL provided by Db2 for i allows you to run CL commands in a script. When do you this in Code for IBM i, the spool will be written to the standard IBM i Output channel. There are also `json` and `csv` processors, which will open the result set in the chosen format.
+
+```sql
+-- result set as normal table
+select * from sample.employee;
+
+-- result set as JSON, will open in a new file
+json: select * from sample.employee;
+
+-- result set as CSV, will open in a new file
+csv: select * from sample.employee;
+
+-- run CL commands. output is directed to IBM i output channel
+cl: dspffd sample/employee
+```

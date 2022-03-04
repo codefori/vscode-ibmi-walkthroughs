@@ -14,3 +14,9 @@ To compile, open up a source member (or IFS streamfile) and press:
 This will show a dropdown of the available Actions for the open source file. Use the arrow keys to select which Action you'd like to run and hit enter to select it.
 
 ![](compile.png)
+
+You can also run Actions without opening source members
+
+1. right click on any source member in the object browser
+2. select 'Run Action'
+3. get the same Action selection appear

@@ -12,3 +12,7 @@ From right clicking on either a streamfile or directory, you can:
 4. refresh the listing in the IFS Browser
 5. search content in a directory
 6. upload a file to a directory
+
+## Opening EBCDIC files
+
+In the [connection settings](command:workbench.action.openSettings), you are able to enable a feature that will let the you open and edit EBCDIC sources.

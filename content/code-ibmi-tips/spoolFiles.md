@@ -6,6 +6,8 @@ You can view the spool files from Actions that you run if you enable the 'Log Co
 
 ## Enable the settings
 
+In newer versions of Code for IBM i, it is enabled by default.
+
 To enable the setting, [open the VS Code Settings](command:workbench.action.openSettings) and search for 'compile output'.
 
 Make sure the setting is enabled.

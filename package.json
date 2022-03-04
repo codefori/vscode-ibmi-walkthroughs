@@ -100,7 +100,7 @@
 						"title": "Run an action from a panel",
 						"description": "You can run actions without opening any code.",
 						"media": {"markdown": "./content/code-ibmi-actions/runactionfrompanel.md"},
-						"completionEvents": ["onCommand:code-for-ibmi.runActionFromView"]
+						"completionEvents": ["onCommand:code-for-ibmi.runAction"]
 					}
 				]
 			},

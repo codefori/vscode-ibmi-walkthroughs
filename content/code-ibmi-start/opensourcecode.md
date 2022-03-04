@@ -2,7 +2,7 @@
 
 ## Opening and viewing source code
 
-In the Side Bar find the OBJECT BROWSER:
+In the side Bar find the OBJECT BROWSER:
 
 ![objectbrowser](opensource_01.png)
 

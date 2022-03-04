@@ -2,13 +2,7 @@
 
 ## RPGLE content assist
 
-Code for IBM i ships with content assist for RPGLE, but it is disabled by default.
-
-Content assist for RPGLE works only for total free-format source code (`**FREE`).
-
-To enable the content assist, [open the VS Code Settings](command:workbench.action.openSettings) and search for 'rpgle content assist'.
-
-![](./rpgContentAssist1.png)
+We also ship a seperate extension to add RPGLE language tools. Can you find it on the [Marketplace here](https://marketplace.visualstudio.com/items?itemName=HalcyonTechLtd.vscode-rpgle).
 
 To test it, create a new source member (or streamfile) with the following content:
 

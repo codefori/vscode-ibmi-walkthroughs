@@ -13,4 +13,4 @@ To view a list of defined actions, click the Actions button on the Status Bar at
 
 ![](./viewactions.png)
 
-The Action list is alphabetical, regardless of the properties of the action. Though, you can see what types it is targetting.
+The Action list grouped by type and then alphabetical, regardless of the properties of the action. Though, you can see what types it is targetting.
