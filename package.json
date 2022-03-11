@@ -167,6 +167,12 @@
 						"title": "Spool Files",
 						"description": "It's possible to view spool files from compilications",
 						"media": {"markdown": "./content/code-ibmi-tips/spoolFiles.md"}
+					},
+					{
+						"id": "notebooks",
+						"title": "Notebooks",
+						"description": "Take notes and instantly see results",
+						"media": {"markdown": "./content/code-ibmi-tips/notebooks.md"}
 					}
 				]
 			}
