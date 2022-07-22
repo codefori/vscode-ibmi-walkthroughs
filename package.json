@@ -132,7 +132,7 @@
 			},
 			{
 				"id": "code-ibmi-local",
-				"title": "Local Development",
+				"title": "Local Development with ILE",
 				"description": "Writing and building RPGLE, COBOL or other ILE languages on your local machine",
 				"steps": [
 					{
