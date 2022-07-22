@@ -172,7 +172,7 @@
 						"id": "notebooks",
 						"title": "Notebooks",
 						"description": "Take notes and instantly see results",
-						"media": {"markdown": "./content/code-ibmi-tips/notebooks.md"}
+						"media": {"markdown": "./content/code-ibmi-tips/notebook.md"}
 					}
 				]
 			}
