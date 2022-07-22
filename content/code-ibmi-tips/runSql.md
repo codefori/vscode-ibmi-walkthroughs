@@ -2,7 +2,7 @@
 
 ## Running SQL statements
 
-**For this to work, SQL must be [enabled in the settings]((command:code-for-ibmi.showAdditionalSettings)).**
+**For this to work, you must install the [Db2 for IBM i extension](https://marketplace.visualstudio.com/items?itemName=HalcyonTechLtd.vscode-db2i).**
 
 When working with SQL files you can highlight an SQL statement and exeute it from within the editor.
 
