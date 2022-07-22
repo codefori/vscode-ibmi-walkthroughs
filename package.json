@@ -131,6 +131,46 @@
 				]
 			},
 			{
+				"id": "code-ibmi-local",
+				"title": "Local Development",
+				"description": "Writing and building RPGLE, COBOL or other ILE languages on your local machine",
+				"steps": [
+					{
+						"id": "workspace",
+						"title": "Opening a Workspace",
+						"when": "workspaceFolderCount == 0",
+						"description": "Open a local directory into your Workspace.",
+						"media": {"markdown": "./content/code-ibmi-local/workspace.md"}
+					},
+					{
+						"id": "connect",
+						"title": "Connecting to a system",
+						"description": "Connect to the system you want to build on.",
+						"media": {"markdown": "./content/code-ibmi-local/connect.md"},
+						"completionEvents": ["onContext:code-for-ibmi:connected"]
+					},
+					{
+						"id": "actions-create",
+						"title": "Creating local Actions",
+						"description": "Create local Actions to execute a deploy and build.",
+						"media": {"markdown": "./content/code-ibmi-local/actions-create.md"}
+					},
+					{
+						"id": "actions-running",
+						"title": "Running local Actions",
+						"description": "Run the deploy and build to get results.",
+						"media": {"markdown": "./content/code-ibmi-local/actions-running.md"},
+						"completionEvents": ["onCommand:code-for-ibmi.runAction"]
+					},
+					{
+						"id": "git",
+						"title": "Using git with local source",
+						"description": "When you use a local repository, you can use the local git client.",
+						"media": {"markdown": "./content/code-ibmi-local/git.md"}
+					}
+				]
+			},
+			{
 				"id": "code-ibmi-tips",
 				"title": "Code for IBM i Tips",
 				"description": "Some tips for using Code for IBM i",
