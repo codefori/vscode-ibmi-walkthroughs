@@ -215,6 +215,47 @@
 						"media": {"markdown": "./content/code-ibmi-tips/notebook.md"}
 					}
 				]
+			},
+			{
+				"id": "code-ibmi-rpgle",
+				"title": "RPGLE language tools & linting",
+				"description": "Learn about the RPGLE language tools",
+				"steps": [
+					{
+						"id": "install",
+						"title": "Extension installation",
+						"description": "Install the RPGLE language tools extension",
+						"media": {"markdown": "./content/code-ibmi-rpgle/install.md"},
+						"completionEvents": ["onExtensionInstalled:halcyontechltd.vscode-rpgle"]
+					},
+					{
+						"id": "language",
+						"title": "RPGLE language tools features",
+						"description": "Understand the basic language tools provided",
+						"media": {"markdown": "./content/code-ibmi-rpgle/language.md"}
+					},
+					{
+						"id": "linter-enable",
+						"title": "Enabling the linter",
+						"description": "Enable the linter and write the best code",
+						"media": {"markdown": "./content/code-ibmi-rpgle/linter-enable.md"},
+						"completionEvents": ["onSettingChanged:vscode-rpgle.rpgleLinterSupportEnabled"]
+					},
+					{
+						"id": "linter-configure",
+						"title": "Configuring the linter",
+						"description": "Create lint configuration for a project",
+						"media": {"markdown": "./content/code-ibmi-rpgle/linter-configure.md"},
+						"completionEvents": ["onCommand:vscode-rpgle.openLintConfig"]
+					},
+					{
+						"id": "linter-autofix",
+						"title": "Auto-fixing with the linter",
+						"description": "Autofix issues in your RPGLE code",
+						"media": {"markdown": "./content/code-ibmi-rpgle/linter-autofix.md"},
+						"completionEvents": ["onCommand:vscode-rpgle.fixAllErrors"]
+					}
+				]
 			}
 		]
 	},
