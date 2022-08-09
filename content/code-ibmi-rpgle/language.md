@@ -8,7 +8,7 @@ When you enable the VS Code outline, you see your code outlined. Run the 'Focus 
 
 ## Content assist
 
-Are you write new words, Visual Studio Code will prompt new suggestions based on defintions and include statements. If you want to see all possible suggestions you can use Control + Space to list them.
+As you write new words, Visual Studio Code will prompt new suggestions based on defintions and include statements. If you want to see all possible suggestions you can use Control + Space to list them.
 
 ## Column assist for fixed-format RPGLE
 
