@@ -10,6 +10,7 @@ To compile, open up a source member (or IFS streamfile) and press:
 
 * Windows: Control + E
 * Mac: Command + E
+* Linux: Control + E
 
 This will show a dropdown of the available Actions for the open source file. Use the arrow keys to select which Action you'd like to run and hit enter to select it.
 
