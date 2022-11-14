@@ -228,13 +228,6 @@
 						"media": {"markdown": "./content/code-ibmi-rpgle/language.md"}
 					},
 					{
-						"id": "linter-enable",
-						"title": "Enabling the linter",
-						"description": "Enable the linter and write the best code",
-						"media": {"markdown": "./content/code-ibmi-rpgle/linter-enable.md"},
-						"completionEvents": ["onSettingChanged:vscode-rpgle.rpgleLinterSupportEnabled"]
-					},
-					{
 						"id": "linter-configure",
 						"title": "Configuring the linter",
 						"description": "Create lint configuration for a project",
