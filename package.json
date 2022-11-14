@@ -3,6 +3,7 @@
 	"displayName": "Code for IBM i Walkthroughs",
 	"description": "Adds walkthroughs for IBM i development in VS Code",
 	"version": "0.2.3",
+	"icon": "content/icon.png",
 	"author": {
 		"name": "Halcyon Tech Ltd",
 		"url": "https://github.com/halcyon-tech"
