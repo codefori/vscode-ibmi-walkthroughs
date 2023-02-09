@@ -72,7 +72,7 @@
 					{
 						"id": "extension",
 						"title": "Install the debug extension",
-						"description": "The debug extension is required.",
+						"description": "The debug extension is required from the Marketplace. \n[Go to Marketplace](command:code-for-ibmi.debug.extension)",
 						"media": {"markdown": "./content/code-ibmi-debug/extension.md"},
 						"completionEvents": ["onExtensionInstalled:IBM.ibmidebug"]
 					},
