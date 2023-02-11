@@ -86,16 +86,9 @@
 					{
 						"id": "remote",
 						"title": "Setup certificates",
-						"description": "Certificates are required for the debug service to run securely.\n[Generate certificates](command:code-for-ibmi.debug.setup.remote)",
+						"description": "Certificates are required for the debug service to startup and run securely.\n[Generate certificates](command:code-for-ibmi.debug.setup.remote)",
 						"media": {"markdown": "./content/code-ibmi-debug/remote.md"},
 						"completionEvents": ["onContext:code-for-ibmi:debug.remote"]
-					},
-					{
-						"id": "local",
-						"title": "Get local certificate",
-						"description": "To use the debug service, we need to grab a certificate from the server.\n[Download certificate](command:code-for-ibmi.debug.setup.local)",
-						"media": {"markdown": "./content/code-ibmi-debug/local.md"},
-						"completionEvents": ["onContext:code-for-ibmi:debug.local"]
 					},
 					{
 						"id": "startup",
