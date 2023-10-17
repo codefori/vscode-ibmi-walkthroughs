@@ -68,6 +68,7 @@
 				"id": "code-ibmi-debug",
 				"title": "Setup the debug service on IBM i",
 				"description": "Get started with IBM i debugging.",
+				"when": " && code-for-ibmi:debugManaged != true",
 				"steps": [
 					{
 						"id": "extension",
