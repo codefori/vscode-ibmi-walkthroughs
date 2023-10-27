@@ -216,7 +216,7 @@
 						"title": "Run SQL inline",
 						"description": "Run SQL queries directly from files with the SQL extension.",
 						"media": {"markdown": "./content/code-ibmi-tips/runSql.md"},
-						"completionEvents": ["onCommand:code-for-ibmi.runEditorStatement"]
+						"completionEvents": ["onCommand:code-for-ibmi.runEditorStatement", "onExtensionInstalled:halcyontechltd.vscode-db2i"]
 					},
 					{
 						"id": "searchSourceMembers",
@@ -236,12 +236,6 @@
 						"title": "Spool Files",
 						"description": "It's possible to view spool files from compilications",
 						"media": {"markdown": "./content/code-ibmi-tips/spoolFiles.md"}
-					},
-					{
-						"id": "notebooks",
-						"title": "Notebooks",
-						"description": "Take notes and instantly see results",
-						"media": {"markdown": "./content/code-ibmi-tips/notebook.md"}
 					}
 				]
 			},
