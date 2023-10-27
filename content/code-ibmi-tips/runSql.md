@@ -25,7 +25,7 @@ If you just want to run or test a statement, try this:
 
 ### SQL processors
 
-Newer version of SQL provided by Db2 for i allows you to run CL commands in a script. When do you this in Code for IBM i, the spool will be written to the standard IBM i Output channel. There are also `json` and `csv` processors, which will open the result set in the chosen format.
+Newer version of SQL provided by Db2 for i allows you to run CL commands in a script. There are also `json` and `csv` processors, which will open the result set in the chosen format.
 
 ```sql
 -- result set as normal table
