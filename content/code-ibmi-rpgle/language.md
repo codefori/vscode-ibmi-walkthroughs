@@ -10,16 +10,10 @@ When you enable the VS Code outline, you see your code outlined. Run the 'Focus 
 
 As you write new words, Visual Studio Code will prompt new suggestions based on defintions and include statements. If you want to see all possible suggestions you can use Control + Space to list them.
 
-## Column assist for fixed-format RPGLE
+## Go to definiton
 
-If you are still coding in fixed format RPGLE, this feature helps you put code in the correct columns.
+You can right click on any variable, subfield, etc, and use 'go to defintion' or 'peak definition' to move the cursor to where the reference is defined.
 
-The column assistant is invoked by right clicking on a line:
+## References
 
-![](./colassist-1.png)
-
-The column assistant then appears:
-
-![](./colassist-2.png)
-
-You can also invoke the column assistant on the current line with Shift + F4.
+You can right click on any variable, subfield, etc, and use 'show all references' or 'peak references' to show every reference to it.
