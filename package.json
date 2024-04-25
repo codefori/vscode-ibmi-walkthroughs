@@ -65,41 +65,6 @@
 				]
 			},
 			{
-				"id": "code-ibmi-debug",
-				"title": "Setup the debug service on IBM i",
-				"description": "Get started with IBM i debugging.",
-				"when": "code-for-ibmi:debugManaged != true",
-				"steps": [
-					{
-						"id": "extension",
-						"title": "Install the debug extension",
-						"description": "The debug extension is required from the Marketplace. \n[Go to Marketplace](command:code-for-ibmi.debug.extension)",
-						"media": {"markdown": "./content/code-ibmi-debug/extension.md"},
-						"completionEvents": ["onExtensionInstalled:IBM.ibmidebug"]
-					},
-					{
-						"id": "ptfs",
-						"title": "Ensure the PTFs are installed",
-						"description": "To debug IBM i programs, some PTFs are required.",
-						"media": {"markdown": "./content/code-ibmi-debug/ptfs.md"},
-						"completionEvents": ["onContext:code-for-ibmi:debug.ptf"]
-					},
-					{
-						"id": "remote",
-						"title": "Setup certificates",
-						"description": "Certificates are required for the debug service to startup and run securely.\n[Generate certificates](command:code-for-ibmi.debug.setup.remote)",
-						"media": {"markdown": "./content/code-ibmi-debug/remote.md"},
-						"completionEvents": ["onContext:code-for-ibmi:debug.remote"]
-					},
-					{
-						"id": "startup",
-						"title": "Start up the service",
-						"media": {"markdown": "./content/code-ibmi-debug/startup.md"},
-						"description": "Last step is to startup the service. Only one person needs to do this. This starts the service up on the connected system.\n[Start debug service](command:code-for-ibmi.debug.start)"
-					}
-				]
-			},
-			{
 				"id": "code-ibmi-actions",
 				"title": "Code for IBM i Actions",
 				"description": "Actions are the way to manage your compile options. You can add, remove, and edit actions. You have to be connected first!",
