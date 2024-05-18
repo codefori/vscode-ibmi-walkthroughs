@@ -6,7 +6,7 @@ The `actions.json` file defines what commands should be used to build your appli
 
 The company_system repository comes with an existing one that uses `gmake` (GNU Make) to build the application, but you could also set up an action to:
 
-* run the `CRTBNDxxx` directory
+* run the `CRTBNDxxx` command
 * run `gmake`
 * run `makei` (ibmi-bob)
 
