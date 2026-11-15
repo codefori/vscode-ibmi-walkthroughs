@@ -26,4 +26,6 @@ When complete, **click Save**. If you simply close the tab, nothing will be save
 
 ## Compile errors
 
-Note that if you're running a command to compile source code and want to errors to show up in the Problems tab, you need to make sure your command has `OPTIONS(*EVENTF)`. All of the default commands have this.
+Note that if you're running a command to compile source code and want errors to show up in the Problems view, you need to make sure your command has `OPTION(*EVENTF)`. All of the default commands have this.
+
+For a hands-on example, open the **Understanding compile errors and EVFEVENT** walkthrough.
