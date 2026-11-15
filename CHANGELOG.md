@@ -6,4 +6,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+- Add a walkthrough for RPG compile errors, EVFEVENT, and missing diagnostics.
 - Initial release

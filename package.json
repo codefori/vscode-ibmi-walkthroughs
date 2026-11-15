@@ -99,6 +99,55 @@
 				]
 			},
 			{
+				"id": "code-ibmi-evfevent",
+				"title": "Understanding compile errors and EVFEVENT",
+				"description": "Trace an RPG compile error into VS Code, fix it, and troubleshoot missing diagnostics.",
+				"steps": [
+					{
+						"id": "understand",
+						"title": "Understand the compile-error workflow",
+						"description": "Learn how compiler event data becomes a diagnostic in VS Code.",
+						"media": {"markdown": "./content/code-ibmi-evfevent/understand.md"}
+					},
+					{
+						"id": "prepare",
+						"title": "Prepare an RPG source member",
+						"description": "Create a small example with an intentional spelling error in your own development library.",
+						"media": {"markdown": "./content/code-ibmi-evfevent/prepare.md"}
+					},
+					{
+						"id": "compile",
+						"title": "Compile with event-file support",
+						"description": "Create and run a member Action using OPTION(*EVENTF).",
+						"media": {"markdown": "./content/code-ibmi-evfevent/compile.md"}
+					},
+					{
+						"id": "inspect",
+						"title": "Follow a diagnostic to the source",
+						"description": "Inspect the Problems view and locate the EVFEVENT member behind the diagnostics.",
+						"media": {"markdown": "./content/code-ibmi-evfevent/inspect.md"}
+					},
+					{
+						"id": "fix",
+						"title": "Fix the error and compile again",
+						"description": "Use a new compile to verify the correction and refresh compiler diagnostics.",
+						"media": {"markdown": "./content/code-ibmi-evfevent/fix.md"}
+					},
+					{
+						"id": "ifs",
+						"title": "Compare source-member and IFS builds",
+						"description": "Repeat the exercise with a remote IFS stream file and identify what changes.",
+						"media": {"markdown": "./content/code-ibmi-evfevent/ifs.md"}
+					},
+					{
+						"id": "troubleshoot",
+						"title": "Troubleshoot missing diagnostics",
+						"description": "Check compilation, event-file retrieval, source mapping, and display settings in order.",
+						"media": {"markdown": "./content/code-ibmi-evfevent/troubleshoot.md"}
+					}
+				]
+			},
+			{
 				"id": "code-ibmi-ifsBrowser",
 				"title": "Code for IBM i IFS Browser",
 				"description": "The IFS Browser is a way to browse IFS files. You can use it to browse your IFS files and folders.",
